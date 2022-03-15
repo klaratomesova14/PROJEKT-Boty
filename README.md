@@ -30,7 +30,7 @@ Cílem projektu je procvičit si použití různých technik:
     - chci-li uvnitř prvku odsadit něco od jeho okraje, použiji padding
     - chci-li odsunout dva prvky od sebe navzájem, použiji margin
 
-Ve složce projektu je obrázek *zadani-ukolu.jpg*, kde jsou uvedeny požadované rozměry, rozestupy, použitá písma, apod. Pokud nějaký rozměr na obrázku není uveden, zkus ho odhadnout. I to bohužel patří k práci kódera - musí se umět vyrovnat i s nekompletními podklady a "nějak" práci dokončit. Snaž se vizuálně co nejvíc přiblížit zadání.
+Ve složce projektu je obrázek *zadani-ukolu.jpg*, kde jsou uvedeny požadované rozměry, rozestupy, použitá písma, apod. Pokud nějaký rozměr na obrázku není uveden, zkus ho odhadnout. I to bohužel patří k práci kódera - musí se umět vyrovnat i s nekompletními podklady a "nějak" práci dokončit. Snaž se vizuálně co nejv300íc přiblížit zadání.
 
 ![zadání úkolu](zadani-ukolu.jpg)
 

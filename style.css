@@ -4,6 +4,10 @@ html { box-sizing: border-box; }
 
 body {
     text-rendering: optimizeLegibility;
+    background-color: #f5f5f5;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 /*
@@ -21,3 +25,118 @@ body {
 */
 
 /* ----- zde zacni psat vlastni css ----- */
+
+.box {
+    display:flex;
+    width: 670px;
+    height: 440px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    border-radius: 5px;
+    position:relative;
+    box-shadow: 3px 3px 10px #959595 ;
+    
+
+}
+
+.velikost {
+    display: flex;
+
+    
+}
+.cislo {
+    margin: 0 12px;
+    list-style: none;
+
+}
+
+.vybrane {
+    border-radius: 50%;
+    border: solid 1px #f15f42;
+    padding: 5px;
+    color: #f15f42;
+    font-weight: bold;
+    margin-top: -5px;
+}
+.zelena {
+    position: relative;
+    background-image: linear-gradient(#06d7c1, #50cc49);
+    flex-basis: 50%;
+    flex-shrink: 0;
+    padding: 30px;
+    color: white;
+    border-radius: 5px 0 0 5px;
+}
+.bila {
+    flex-basis: 50%;
+    flex-shrink: 0;
+    padding: 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 0 5px 5px 0;
+}
+.bota {
+    position: absolute;
+    left: -80px;
+    bottom: 5px
+}
+
+.cena {
+    font-size: 28px;
+    font-weight: 500;
+    position: absolute;
+    bottom: 45px;
+    right: 30px;
+}
+
+.zaruka {
+    font-size: 12px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+.tempo {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0;
+}
+.kosik {
+    background-color: #f15f42;
+}
+.kosik {
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    box-shadow: 0 0 0 #959595;
+}
+h2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+h3 {
+    color: #959595;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    font-weight: normal;
+
+}
+.popis {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #06d7c1;
+    }
